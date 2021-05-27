@@ -107,15 +107,3 @@ body {
 	background-color: #dff0d8;
 }
 
-.image.avatar {
-			border-radius: 100%;
-		}
-
-			.image.avatar:before {
-				display: none;
-			}
-
-			.image.avatar img {
-				border-radius: 30%;
-				width: 200%;
-			}
