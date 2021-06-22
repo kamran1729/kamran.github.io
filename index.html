@@ -619,49 +619,31 @@
 
         <!-- Contact section -->
          <section name="contact" id="contact">      <!--class="min-padding"-->
-    	     <div class="container lead">
+    	     <div class="row">
 	         <div style="text-align: left; margin-top:10px" class="col-md-12">
                      
-                     <b class="noshow" style="display:none;" id="tab-7">
+                    <!-- <b class="noshow" style="display:none;" id="tab-7">
                          <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-contact-content').toggle();">Contact  <span class="glyphicon glyphicon-chevron-down"></span></button>
                      </b>
-                     <div class="allshow" style="display:none;" id="tab-teaching-content">
+                     <div class="allshow" style="display:none;" id="tab-contact-content">
                          
-                         <hr class="star-primary">
+                         <hr class="star-primary">-->
 			 <h2>Contact Me<//h2>
 		 
-	
-    
-      	 <!-- Contact Mohd Kamran -->
-      	 <!--<div class="row">-->
-           <!--div class="col-lg-8 mx-auto text-center">-->
-           <!--<h2 >-->         <!--class="section-heading"-->
-          
-           <!-- Attempting to avoid spam by removing @ and the dot in my domain -->
-            <!--Contact me</h2>
-            <hr class="divider black my-4" />-->
-            <h4>If you need any information, you can send me a message.</h4>
+                         <h4>If you need any information, you can send me a message.</h4>
           
           
-            <form action="mailto:kamranmohd080@gmail.com" method="POST" class="form-horizontal" role="form">
-              <!-- Need a name, reply to email, and a message -->
-              <div class="form-group">
-                <input type="text" name="name" placeholder="Your Name" class="form-control" required>
-              </div>
-            <div class="form-group">
-              <input type="email" name="email" placeholder="Your Email" class="form-control" required>
-            </div>
-            <div class="form-group">
-              <textarea name="message" placeholder="Your message" class="form-control" required></textarea>
-            </div>
-            <!-- Hidden elements here -->
-            <input type="hidden" name="_subject" value="New email from Contact Me Form!" class="form-control">
-            <input type="hidden" name="_next" value="thanks.html" />
-            <!-- Submit button -->
-            <div class="form-group">
-              <input type="submit" value="Email Kamran" class="btn btn-warning btn-xl">
-            </div>
-          </form>
+            <form method="post" action="mailto:kamranmohd080@gmail.com" enctype="html">
+		<div class="row gtr-uniform gtr-50">
+	            <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Your Name" /></div>
+		    <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email" /></div>
+		    <div class="col-12"><textarea name="message" id="message" placeholder="Your Message" rows="4"></textarea></div>
+	       </div>
+		    
+	       <ul class="actions">
+		    <li><input type="submit" style="font-weight:bold" value="Send" /></li>
+	       </ul>
+	    </form>
         </div>
       </div>
 		     
